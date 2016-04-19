@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF4F4F4"
+    android:orientation="vertical" >
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_marginBottom="55dp">
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center|bottom"
+                android:background="@drawable/main_button"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/star"
+                android:background="#00000000"/>
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="#00000000">
+
+
+
+                    <RadioGroup
+                        android:id="@+id/main_radio"
+                        android:layout_width="fill_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center|bottom"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_verymeet"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawablePadding="5dp"
+                            android:drawableTop="@drawable/bigstar"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="0dp"
+                            android:text="遇见"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_mooddiary"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:drawablePadding="5dp"
+                            android:button="@null"
+                            android:drawableTop="@drawable/bigstar"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="0dp"
+                            android:text="好友"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_bigstar"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawablePadding="5dp"
+                            android:drawableTop="@drawable/bigstar"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="0dp"
+                            android:text="大剧星"
+                            android:textColor="#000000"
+                            android:textSize="15dp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_loveeager"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawablePadding="5dp"
+                            android:drawableTop="@drawable/bigstar"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="0dp"
+                            android:text="逅家"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_membercenter"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:layout_weight="1"
+                            android:button="@null"
+                            android:drawablePadding="5dp"
+                            android:drawableTop="@drawable/bigstar"
+                            android:gravity="center_horizontal"
+                            android:paddingLeft="0dp"
+                            android:text="我的"
+                            android:textColor="#000000"
+                            android:textSize="12dp" />
+                    </RadioGroup>
+
+            </FrameLayout>
+        </FrameLayout>
+
+</LinearLayout>
